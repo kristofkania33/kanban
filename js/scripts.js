@@ -94,7 +94,7 @@ $(function(){
     };
 
     function initSortable() {
-        $('column-card-list').sortable({
+        $('.column-card-list').sortable({
             connectWith: '.column-card-list',
             placeholder: 'card-placeholder'
     	}).disableSelection();
